@@ -1,5 +1,11 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic")
+@font-face {
+    font-family: 'Calibri';
+    src: url('../assets/webfonts/Calibri-Regular.ttf') format('ttf');
+    
+}
+
 
 /*
 	Spectral by HTML5 UP
@@ -22,7 +28,7 @@ section, summary, time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: Calibri;
+	font-family: 'Calibri', sans-serif;
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
