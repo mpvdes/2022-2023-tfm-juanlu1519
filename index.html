@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    
 	</head>
 	<body class="landing is-preload">
 
@@ -46,9 +47,9 @@
 					<section id="banner">
 						<div class="inner">
 							<h2>Girona, una ciudad en transformación</h2>
-							<h3>La ciudad catalana ha sabido convertirse en los últimos años en un atractivo para el turismo y las inversiones económicas por su clima mediterráneo, por la presencia de monumentos como la Catedral de Girona y por su oferta cultural, gastronómica, deportiva y educativa.</h3>
-             <h3> La estación de tren de alta velocidad, los accesos por autopista y el aeropuerto hacen de Girona una ciudad accesible y deseada por muchos para instalarse definitivamente.</h3>
-             <h3>Este proyecto de periodismo de datos pretende explicar las causas y consecuencias de este crecimiento.</h3>
+							<p>La ciudad catalana ha sabido convertirse en los últimos años en un atractivo para el turismo y las inversiones económicas por su clima mediterráneo, por la presencia de monumentos como la Catedral de Girona y por su oferta cultural, gastronómica, deportiva y educativa.</p>
+             <p> La estación de tren de alta velocidad, los accesos por autopista y el aeropuerto hacen de Girona una ciudad accesible y deseada por muchos para instalarse definitivamente.</p>
+             <p>Este proyecto de periodismo de datos pretende explicar las causas y consecuencias de este crecimiento.</p>
 						 
 					</section>
           
@@ -84,8 +85,14 @@
 								      <h2>Más de 100.000 gerundenses</h2>
 								      <p>Uno de los indicadores que nos demuestra el crecimiento de la ciudad es el considerable aumento de habitantes que están empadronados en ella. Como podemos ver en el siguiente gráfico, Girona tenía algo más de 70.000 empadronados en 1996. Actualmente, la ciudad supera los 100.000 empadronados, lo que supone un aumento del 45% en 26 años.</p>
                       <p style="text-align: center;">
-                          <iframe src="images/empadronados19962022plotlyPEQUEÑO.html" width="500" height="470" title="Empadronados Girona 2015-2022"></iframe>
+                          <iframe id="graficos" src="images/empadronados19962022plotlyPEQUEÑO.html" width="500" height="470" title="Empadronados Girona 2015-2022"></iframe>
                       </p>
+                      <div class="contenedor-responsivo">
+                          <iframe class="iframe-responsivo" id="graficos" src="images/empadronados19962022plotly.html" frameborder="0" allowfullscreen title="Empadronados Girona 2015-2022"></iframe>
+                      </div>
+                      <div class="contenedor-responsivo">
+                          <iframe class="iframe-responsivo" id="graficos" src="images/empadronados19962022plotlyPRUEBA.html" frameborder="0" allowfullscreen title="Empadronados Girona 2015-2022"></iframe>
+                      </div>
                       <p>Este crecimiento demográfico no se debe exclusivamente a la población natural. Los movimientos migratorios, la centralidad del sector económico y los puestos de trabajo, añadidos al aumento de la población estudiantil, explican el crecimiento poblacional de Girona.
                       </p>
                       
@@ -99,13 +106,13 @@
 								      <h2>Crecimiento desigual</h2>
 								      <p>Los vecinos que llevan décadas en la ciudad han visto cómo Girona ya no es como la conocieron. Aquella ciudad gris y antigua se ha convertido en una urbe atractiva para gente que busca un lugar tranquilo, accesible y con una buena calidad de vida para visitar o instalarse definitivamente.</p>
                       <p>El transporte sostenible ha sido una apuesta de los últimos gobiernos de la ciudad.</p>
-                      <img src = "images/movilidad.svg"style="width: 100%; height: auto;" alt="Tabla movilidad Girona"/>
+                      <img src = "images/movilidad.png"style="width: 100%; height: auto;" alt="Tabla movilidad Girona"/>
                       <p>Girona ha potenciado la movilidad en bicicleta, elevando año tras año el número de <i>Girocletas</i>, estaciones y aparcamientos de este sistema de transporte público municipal. También se han visto aumentadas las líneas de autobús y las de tren.</p>
                       <p>Sin embargo, el aumento demográfico no ha ido acompañado de una mayor dotación de equipamientos urbanos.</p>
-                      <img src = "images/equipamientos.svg"style="width: 100%; height: auto;" alt="Tabla equipamientos Girona"/>
+                      <img src = "images/equipamientos.png"style="width: 100%; height: auto;" alt="Tabla equipamientos Girona"/>
                       <p>La ciudad cuenta prácticamente con los mismos hospitales, centros de educación e instalaciones deportivas y culturales que tenía hace 10 años. Destacan la reducción de instalaciones de administración pública, de guarderías y de centros universitarios.</p>
                       <p>Que una ciudad se convierta en atractiva para nuevos vecinos, turistas e inversores muchas veces implica que haya gente que se quede atrás y no pueda asumir el mayor coste de vida. Aunque hemos visto que se han dedicado grandes partidas presupuestarias a todo lo relacionado con los derechos sociales, hay datos que demuestran que cada vez hay más familias que necesitan ayudas públicas para salir adelante.</p>
-                      <img src = "images/social.svg"style="width: 100%; height: auto;" alt="Tabla situación social Girona"/>
+                      <img src = "images/social.png"style="width: 100%; height: auto;" alt="Tabla situación social Girona"/>
                       <p>Es cierto que la tasa de paro se ha reducido en los últimos años debido, sobre todo, al aumento de los puestos de trabajo en el sector servicios. Pero a la vez, han aumentado los beneficiarios de renta mínima de inserción, las familias atendidas por servicios sociales y las personas en situación de calle, entre otros indicadores.</p>
 						  </div>
 					</section>
@@ -116,7 +123,7 @@
 							    <header class="major">
 								      <h2>Pocos pisos y más caros</h2>
 								      <p>El acceso a la vivienda está suponiendo un quebradero de cabeza para los antiguos y nuevos vecinos. La construcción de nueva vivienda no ha ido al mismo ritmo que el crecimiento demográfico de la ciudad y el porcentaje de viviendas vacías ha ido reduciéndose década tras década.</p>
-                      <img src = "images/viviendas-vacias.svg"style="width: 100%; height: auto;" alt="Tabla evolución viviendas vacías Girona"/>
+                      <img src = "images/viviendas-vacias.png"style="width: 100%; height: auto;" alt="Tabla evolución viviendas vacías Girona"/>
                       <p>La escasez de vivienda vacía, sumada a la especulación inmobiliaria y el aumento del alquiler de temporada ha supuesto que el precio de la vivienda haya aumentado en casi un 50% en los últimos 9 años.</p>                           
                       <p> Como vemos en el siguiente gráfico, los precios del alquiler bajaron en el período 2007-2014 debido a la crisis inmobiliaria.</p>
 
@@ -148,10 +155,10 @@
 						  <div class="inner">
 							    <header class="major">
 								      <h2>Metodología</h2>
-                      <p>Este proyecto forma parte del Trabajo de Fin de Máster de la edición 2022/2023 del <a href="https://mpvd.es/">Máster de Formación Permanente en Periodismo y Visualización de Datos de la Universidad de Alcalá (MPVD)</a>. El objetivo del mismo es aplicar todos los conocimientos adquiridos en el Máster y mostrar la evolución que ha experimentado la ciudad de Girona a través de los datos.</p>
-<p>Las bases de datos sobre las que se trabaja son oficiales, públicas y abiertas. Estas bases pertenecen a: <a href="https://www.girona.cat/opendata/">Open Data Girona</a>, <a href="https://terra.girona.cat/apps/observatori/">L&#39;Observatori</a>, <a href="https://ine.es/">Instituto Nacional de Estadística</a> y <a href="https://www.sedecatastro.gob.es/">Catastro</a>.</p>
-<p>Todas las herramientas usadas para la elaboración del proyecto son de Libre Uso. Para la extracción de datos se ha usado el paquete <a href="https://www.gnu.org/software/wget/">Wget</a> de <a href="https://www.cygwin.com/">Cygwin</a>. Para la limpieza y análisis de los datos se han usado las librerías Numpy y Pandas de <a href="https://www.python.org/">Python</a> y el <em>software</em> <a href="https://openrefine.org/">OpenRefine</a>. Los gráficos se han realizado con el paquete Plotly de Python y las tablas, con <a href="https://es.libreoffice.org/">LibreOffice</a> e <a href="https://inkscape.org/es/">Inkscape</a>. Las imágenes se han editado con <a href="http://www.gimp.org.es/">Gimp</a> e Inkscape. El mapa se ha realizado con el programa <a href="https://www.qgis.org/es/site/">QGIS</a>. La redacción del proyecto y de la página web ha sido con <a href="https://www.gnu.org/software/emacs/">Emacs</a>. Con <a href="https://git-scm.com/">Git</a> se ha realizado el control de versiones y la publicación del proyecto en Github.</p>
-<p>Asimismo, esta obra está bajo licencia de <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Reconocimiento-Compartir Igual 4.0 Internacional</a>. Puede consultar los recursos usados en este proyecto en el siguiente <a href="https://github.com/mpvdes/2022-2023-tfm-juanlu1519">repositorio de Github</a>.</p>
+                      <blockquote>Este proyecto forma parte del Trabajo de Fin de Máster de la edición 2022/2023 del <a href="https://mpvd.es/">Máster de Formación Permanente en Periodismo y Visualización de Datos de la Universidad de Alcalá (MPVD)</a>. El objetivo del mismo es aplicar todos los conocimientos adquiridos en el Máster y mostrar la evolución que ha experimentado la ciudad de Girona a través de los datos.<br>
+Las bases de datos sobre las que se trabaja son oficiales, públicas y abiertas. Estas bases pertenecen a: <a href="https://www.girona.cat/opendata/">Open Data Girona</a>, <a href="https://terra.girona.cat/apps/observatori/">L&#39;Observatori</a>, <a href="https://ine.es/">Instituto Nacional de Estadística</a> y <a href="https://www.sedecatastro.gob.es/">Catastro</a>.<br>
+Todas las herramientas usadas para la elaboración del proyecto son de Libre Uso. Para la extracción de datos se ha usado el paquete <a href="https://www.gnu.org/software/wget/">Wget</a> de <a href="https://www.cygwin.com/">Cygwin</a>. Para la limpieza y análisis de los datos se han usado las librerías Numpy y Pandas de <a href="https://www.python.org/">Python</a> y el <em>software</em> <a href="https://openrefine.org/">OpenRefine</a>. Los gráficos se han realizado con el paquete Plotly de Python y las tablas, con <a href="https://es.libreoffice.org/">LibreOffice</a> e <a href="https://inkscape.org/es/">Inkscape</a>. Las imágenes se han editado con <a href="http://www.gimp.org.es/">Gimp</a> e Inkscape. El mapa se ha realizado con el programa <a href="https://www.qgis.org/es/site/">QGIS</a>. La redacción del proyecto y de la página web ha sido con <a href="https://www.gnu.org/software/emacs/">Emacs</a>. Con <a href="https://git-scm.com/">Git</a> se ha realizado el control de versiones y la publicación del proyecto en Github.<br>
+Esta obra está bajo licencia de <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Reconocimiento-Compartir Igual 4.0 Internacional</a>. Puede consultar los recursos usados en este proyecto en el siguiente <a href="https://github.com/mpvdes/2022-2023-tfm-juanlu1519">repositorio de Github</a>.</blockquote>
 						  </div>
 					</section>
 
