@@ -1,7 +1,7 @@
 // SCROLLAMA
 
 var main = document.querySelector("article.main");
-var scrolly = main.querySelector("#scrolly");
+var scrolly = document.querySelector("#scrolly");
 var sticky = scrolly.querySelector(".sticky-thing");
 var article = scrolly.querySelector("article");
 var steps = article.querySelectorAll(".step");
