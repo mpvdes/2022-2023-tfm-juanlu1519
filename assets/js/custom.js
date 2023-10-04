@@ -24,6 +24,7 @@ function handleStepEnter(response) {
   // sticky.querySelector("p").innerText = el.dataset.step;
   // sticky.style.backgroundColor = el.dataset.color;
   sticky.style.backgroundImage = el.dataset.url;
+    // sticky.style("background-image: url()", el.element.dataset.url);
 }
 
 function init() {
