@@ -153,7 +153,7 @@ Desde la creación hasta el producto final se siguieron los siguientes pasos:
 2. Vinculé la carpeta con el Github del [MPVD](https://github.com/mpvdes) desde la terminal:
 
 ```
-Git init > git remote add juanlu1519 https://github.com/mpvdes/2022-2023-tfm-juanlu1519.git > git remote - v > git add . > git commit -m "descripcion" > git push --set-upstream juanlu1519 master
+Git init && git remote add juanlu1519 https://github.com/mpvdes/2022-2023-tfm-juanlu1519.git && git remote - v && git add . && git commit -m "descripcion" && git push --set-upstream juanlu1519 master
 ```
 
 3. En Github Pages, indiqué la rama *master* ya que es dónde subí la web. Ahí mismo nos apareció el [enlace](https://mpvdes.github.io/2022-2023-tfm-juanlu1519/) de la página.
