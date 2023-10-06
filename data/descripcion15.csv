@@ -1,0 +1,42 @@
+ÀREA;ÀREA_descripció;UNITAT;UNITAT_descripció;DEPARTAMENT;DEPARTAMENT_descripció
+1;Alcaldia;10; Presidència;100; Presidència
+1;Alcaldia;11; Oficina defensor ciutadania;110; Oficina defensor ciutadania
+1;Alcaldia;12; Cultura;120; Cultura
+1;Alcaldia;12; Cultura;121; Biblioteques
+1;Alcaldia;12; Cultura;122; Patrimoni i museus
+1;Alcaldia;12; Cultura;123; Teatre
+1;Alcaldia;12; Cultura;124; Centre cultural La Mercè
+1;Alcaldia;12; Cultura;125; Centre d’art contemporani
+1;Alcaldia;12; Cultura;126; Espai Marfà
+1;Alcaldia;13; Gestió documental, arxius i publicacions;130; Gestió documental, arxius i publicacions
+2;Ciutadania;20; Sostenibilitat i participació ciutadana;200; Serveis centrals àrea sostenibilitat
+2;Ciutadania;20; Sostenibilitat i participació ciutadana;201; Sostenibilitat i serveis ambientals
+2;Ciutadania;20; Sostenibilitat i participació ciutadana;202; Parcs, jardins, rius i paisatge
+2;Ciutadania;20; Sostenibilitat i participació ciutadana;203; Salut
+2;Ciutadania;20; Sostenibilitat i participació ciutadana;204; Informació i atenció ciutadana
+2;Ciutadania;21; Mobilitat i via pública;210; Mobilitat i via pública
+2;Ciutadania;21; Mobilitat i via pública;211; Seguretat
+3;Promoció i ocupació;30; Urbanisme i activitats;300; Urbanisme i activitats
+3;Promoció i ocupació;31; Ocupació i empresa;310; Serveis centrals ocupació i empresa
+3;Promoció i ocupació;31; Ocupació i empresa;311; Ocupació
+3;Promoció i ocupació;31; Ocupació i empresa;312; Empresa
+3;Promoció i ocupació;31; Ocupació i empresa;313; Dinamització
+3;Promoció i ocupació;32; Turisme i comerç;320; Turisme
+3;Promoció i ocupació;32; Turisme i comerç;321; Comerç
+4;Hisenda i Règim interior;40; Hisenda;400; Gestió econòmica
+4;Hisenda i Règim interior;41; Règim interior;410; Administració general
+4;Hisenda i Règim interior;41; Règim interior;411;  Patrimoni
+4;Hisenda i Règim interior;41; Règim interior;412; Recursos humans
+4;Hisenda i Règim interior;41; Règim interior;413; Sistemes i tecnologies de la informació
+4;Hisenda i Règim interior;41; Règim interior;414; Règim intern : equipaments
+4;Hisenda i Règim interior;42; Serveis administratius;420; Serveis administratius
+5;Servei a les persones;50; Educació i esports;500; Educació
+5;Servei a les persones;50; Educació i esports;501; Esports
+5;Servei a les persones;51; Serveis socials;510; Serveis centrals àrea
+5;Servei a les persones;51; Serveis socials;511; Serveis socials atenció primària
+5;Servei a les persones;51; Serveis socials;512; Serveis socials especialitzats
+5;Servei a les persones;51; Serveis socials;513; Centres cívics i participació
+5;Servei a les persones;51; Serveis socials;514; Habitatge
+5;Servei a les persones;52;  Joventut;520; Joventut
+;;;;;
+;;;;;
