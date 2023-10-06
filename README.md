@@ -1,45 +1,25 @@
-Spectral by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Girona, una ciudad en transformación
 
+**Autor: Juan Luis Monterroso Aranda**
 
-A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
-and an assortment of pre-styled elements. So, pretty much what you were expecting
--- except, of course, for how it's put together, specifically:
+Trabajo de Fin de Máster del [Máster en Periodismo y Visualización de Datos](https://mpvd.es/).
 
-- It's built with components from my Responsive Tools project.
+En este repositorio encontramos las siguientes carpetas y archivos:
 
-- It uses flexbox, which eliminates all kinds of terrible hacks and clunky layout
-  stopgaps (like CSS grid systems).
+- [Readme.md](README.md): archivo dónde se explica todo lo que podemos encontrar en el repositorio del proyecto.
 
-- It uses Sass* a lot more intelligently, thanks in part to several new mixins
-  and functions I've been working on (as well as a few by @HugoGiraudel).
+- [Memoria](memoria.md): memoria del TFM donde podemos encontrar los pasos seguidos para la elaboración del trabajo y demás información.
 
-  (* = still entirely optional if you prefer vanilla CSS :)
+- [Index.html](index.html): es la página predeterminada de la página web del trabajo.
 
-- A ton of other stuff.
+- Carpeta *assets*: aquí encontraremos, divididos en subcarpetas, los archivos .css y .js necesarios para que funcione la página web.
 
-In short, Spectral's the culmination of several new things I'm working on/trying out,
-so please, let me know what you think :)
+- Carpeta *images*: todas las imágenes que han resultado de la elaboración de este proyecto las encontraremos en esta carpeta. Podemos encontrar gráficos interactivos en formato .html, mapas en formato .png, imágenes en formato .svg y .jpg y tablas en formato .png y .svg.
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+- Carpeta *data*: las bases de datos que se han usado para realizar el proyecto se encuentran en esta carpeta.
 
-(* = not included)
+- Carpeta *notebooks*: aquí encontramos los documentos en formato .ipynb dónde se hace el tratamiento de los datos y se crean los gráficos estáticos e interactivos.
 
-AJ
-aj@lkn.io | @ajlkn
+Este proyecto finaliza en una página web donde se muestran los resultados obtenidos con el análisis de datos. En el siguiente enlace podemos acceder a ella, donde aparecen gráficos, mapas, tablas, etc.
 
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+https://mpvdes.github.io/2022-2023-tfm-juanlu1519/
