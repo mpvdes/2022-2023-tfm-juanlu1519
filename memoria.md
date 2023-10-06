@@ -228,7 +228,7 @@ Los resultados de este trabajo de fin de máster están recopilados en el siguie
 
 https://github.com/mpvdes/2022-2023-tfm-juanlu1519
 
-En el repositorio encontramos las siguientes carpetas y archivos:
+En el repositorio tenemos las siguientes carpetas y archivos:
 
 - https://mpvdes.github.io/2022-2023-tfm-juanlu1519/ : enlace a la página web que muestra el TFM con gráficos, mapas, tablas, etc.
 
@@ -238,13 +238,13 @@ En el repositorio encontramos las siguientes carpetas y archivos:
 
 - Archivo *index.html*: es la página predeterminada de la página web del trabajo.
 
-- Carpeta *assets*: aquí encontraremos, divididos en subcarpetas, los archivos .css y .js necesarios para que funcione la página web.
+- Carpeta *assets*: aquí aparecen, divididos en subcarpetas, los archivos .css y .js necesarios para que funcione la página web.
 
 - Carpeta *images*: todas las imágenes que han resultado de la elaboración de este proyecto las encontraremos en esta carpeta. Podemos encontrar gráficos interactivos en formato .html, mapas en formato .png, imágenes en formato .svg y .jpg y tablas en formato .png y .svg.
 
-- Carpeta *data*: las bases de datos que se han usado para realizar el proyecto se encuentran en esta carpeta.
+- Carpeta *data*: las bases de datos que se han usado para realizar el proyecto aparecen en esta carpeta.
 
-- Carpeta *notebooks*: aquí encontramos los documentos en formato .ipynb dónde se hace el tratamiento de los datos y se crean los gráficos estáticos e interactivos.
+- Carpeta *notebooks*: aquí están los documentos en formato .ipynb dónde se hace el tratamiento de los datos y se crean los gráficos estáticos e interactivos.
 
 ## Conclusiones
 
