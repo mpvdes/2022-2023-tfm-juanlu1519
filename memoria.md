@@ -222,6 +222,16 @@ A la hora de realizar este proyecto me fue muy útil documentar todo el proceso 
 
 El hecho de que todas las herramientas usadas sean *Software Libre* me permitió encontrar mucha información cuando he tenido problemas y dudas sobre su uso. La propia documentación de la herramienta en cuestión o los foros del estilo [Stackoverflow](https://stackoverflow.com/) me han sido de gran utilidad.
 
+Como comenté anteriormente, la página web se basa en una plantilla de HTML5UP. De esta manera la puesta en marcha de la web es mucho más sencilla, ya que solo hay que personalizarla al gusto de uno. Sin embargo, también tiene sus inconvenientes. Al no conocer el código de primera mano es muy común que los cambios que se apliquen al archivo *main.css* desmonten parte de la web. Tuve ese problema al añadir la parte de *scrollama*, aunque pude solucionarlo. 
+
+Para la web, gráficos, tablas y mapa he usado la siguiente paleta de colores:
+
+```#ffffff``` : blanco.
+```#f4a460``` : *sandybrown*.
+```#000000``` : negro.
+
+Esta elección se debe a la buena visibilidad que ofrece el texto negro sobre blanco. El color *sandybrown* también aparece en gráficos y *banners* en referencia a las Casas del río Onyar, símbolo de Girona que aparece en la cabecera de la página web. En el gráfico *Presupuesto del ayuntamiento de Girona en el período 2015-2023* también se incluyen los colores ```#994b1b```, ```#cbaeaa```, y ```#c68238```, que son similares al *sandybrown*.
+
 ## Resultados
 
 Los resultados de este trabajo de fin de máster están recopilados en el siguiente repositorio de Github:
@@ -244,7 +254,7 @@ En el repositorio tenemos las siguientes carpetas y archivos:
 
 - Carpeta *data*: las bases de datos que se han usado para realizar el proyecto aparecen en esta carpeta.
 
-- Carpeta *notebooks*: aquí están los documentos en formato .ipynb dónde se hace el tratamiento de los datos y se crean los gráficos estáticos e interactivos.
+- Carpeta *notebooks*: aquí están los documentos en formato .ipynb dónde se hace el tratamiento de los datos y se crean los gráficos estáticos e interactivos. También se incluye el archivo en formato .qgz con el que se realizó el mapa comparativo de viviendas de uso turístico.
 
 ## Conclusiones
 
