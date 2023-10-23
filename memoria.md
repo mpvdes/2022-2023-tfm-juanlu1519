@@ -8,6 +8,8 @@ Autor: [Juan Luis Monterroso Aranda](https://www.linkedin.com/in/jlmonterroso/)
 
 - Adolfo Antón: Por sus correcciones y aportaciones en todo el proyecto.
 
+- Javier Cantón y Laura Castro: Por sus aportaciones y propuestas en materia de diseño.
+
 - Yolanda García: Por su ayuda con los notebooks de Python y los gráficos.
 
 - Jesús David Navarro "Jesusda": Por sus anotaciones en materia de Software Libre y sus propuestas con las tablas.
@@ -130,17 +132,7 @@ Para hacer las imagen de fondo de *scrollama*, importé los logos que había cre
 
 #### Creación de tablas
 
-Las tablas que aparecen en el proyecto las realicé de la siguiente manera:
-
-1. Dibujé la tabla con la herramienta propia de *LibreOffice Writer*.
-
-2. La copié y la pegué en *LibreOffice Draw*.
-
-3. Seguidamente, pegué la tabla en Inkscape en formato vectorial.
-
-4. Modifiqué la tabla y le añadí título, créditos, etc.
-
-5. Exporté el documento en formato .svg. Este formato me dio problemas a la hora de subirlo a la web ya que los textos se salían de las cajas cuando se visualizaba desde un teléfono móvil. Asi que decidí exportar las tablas en formato .png para que no hubiera ese problema aunque perdiese algo de calidad.
+Las tablas que aparecen en el proyecto las realicé en formato HTML. En un primer momento las creé con LibreOffice Writer, Draw e Inkscape. Tras las correcciones del equipo docente, las hice en formato HTML con un resultado más accesible y responsivo.
 
 #### Creación y publicación de la página web
 
@@ -186,7 +178,7 @@ Todas las herramientas usadas para la elaboración del proyecto son FLOSS, es de
 
 - Para la limpieza y análisis de los datos se emplearon las librerías Numpy y Pandas de [Python](https://www.python.org/) y el *software* [OpenRefine](https://openrefine.org/). Los notebooks se realizaron con [Jupyter Notebook](https://jupyter.org/).
 
-- Los gráficos se dibujaron con el paquete Plotly de Python y las tablas, con [LibreOffice](https://es.libreoffice.org/) e [Inkscape](https://inkscape.org/es/). 
+- Los gráficos se dibujaron con el paquete Plotly de Python. 
 
 - Las imágenes se editaron con [Gimp](http://www.gimp.org.es/) e Inkscape. 
 
@@ -250,7 +242,7 @@ En el repositorio tenemos las siguientes carpetas y archivos:
 
 - Carpeta *assets*: aquí aparecen, divididos en subcarpetas, los archivos .css y .js necesarios para que funcione la página web.
 
-- Carpeta *images*: todas las imágenes que han resultado de la elaboración de este proyecto las encontraremos en esta carpeta. Podemos encontrar gráficos interactivos en formato .html, mapas en formato .png, imágenes en formato .svg y .jpg y tablas en formato .png y .svg.
+- Carpeta *images*: todas las imágenes que han resultado de la elaboración de este proyecto las encontraremos en esta carpeta. Podemos encontrar gráficos interactivos en formato .html, mapas en formato .png e imágenes en formato .svg y .jpg.
 
 - Carpeta *data*: las bases de datos que se han usado para realizar el proyecto aparecen en esta carpeta.
 
