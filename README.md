@@ -16,7 +16,7 @@ En este repositorio tenemos las siguientes carpetas y archivos:
 
 - Carpeta *assets*: aquí aparecen, divididos en subcarpetas, los archivos .css y .js necesarios para que funcione la página web.
 
-- Carpeta *images*: todas las imágenes que han resultado de la elaboración de este proyecto las tenemos en esta carpeta. Podemos encontrar gráficos interactivos en formato .html, mapas en formato .png, imágenes en formato .svg y .jpg y tablas en formato .png y .svg.
+- Carpeta *images*: todas las imágenes que han resultado de la elaboración de este proyecto las tenemos en esta carpeta. Podemos encontrar gráficos interactivos en formato .html, mapas en formato .png e imágenes en formato .svg y .jpg.
 
 - Carpeta *data*: las bases de datos que se han usado para realizar el proyecto aparecen en esta carpeta.
 
